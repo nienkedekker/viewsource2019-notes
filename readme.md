@@ -1,6 +1,7 @@
 # Melanie Richards - Honouring visual preferences
-Our users bring with us highly personalised color and contrast needs, and these can even change per day or hour. How are we supposed to manage all these needs and preferences with just one color scheme, while also maintaining a design point of view? 
-* Media queries: `prefers-color-scheme`(allows web developer to respond to hints from the user as to what color scheme they use), `prefers-contrast`,` forced-colors `(hint that the content is rendered in user’s system colours, can occur when Windows high contrast is active).
+Slides: https://github.com/melanierichards/talks/tree/master/2019/color-contrast-view-source
+Users bring with them highly personalised color and contrast needs, and these can change per day or even per hour. How are we supposed to manage all these needs and preferences with just one color scheme, while also maintaining a design point of view? 
+* Media queries: `prefers-color-scheme`(allows web developer to respond to hints from the user as to what color scheme they use), `prefers-contrast`,`forced-colors `(hint that the content is rendered in user’s system colours, can occur when Windows high contrast is active).
 * CSS Custom properties can be hugely helpful here, instead of static colours all over your stylesheets, we can set variables on the root node and then use these throughout our stylesheets.
 * Use of `currentColor`in fills and strokes of SVGs is recommended
 * CSS filter properties are great for adjusting brightness and contrast on photography without changing the actual images
@@ -14,3 +15,10 @@ Our users bring with us highly personalised color and contrast needs, and these 
 	* [forced-colors - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/forced-colors)
 	* [-ms-high-contrast - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/-ms-high-contrast)
 	* [prefers-color-scheme - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
+
+
+# Jory Burson - Standardizing JavaScript
+TC39  operates in a proposal process through which they take ideas and then craft proposals around them. Anyone can comment on existing proposals or submit a new one. The processes can be quite opaque.
+
+Resources: 
+	[TC39 – Specifying JavaScript.](https://tc39.es/)
