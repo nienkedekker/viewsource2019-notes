@@ -22,3 +22,11 @@ TC39  operates in a proposal process through which they take ideas and then craf
 
 Resources: 
 	[TC39 – Specifying JavaScript.](https://tc39.es/)
+
+# Hui Jing Chen - Demystify Modern CSS Layouts with DevTools 
+Content based sizing: how much space should content take up? New specification: CSS extrinsic and intrinsic, allowing us to assign automatic widths to the page. By default, browsers don’t break words.
+	* max-content
+	* min-content
+	* fix-content() — still a work in progress
+
+
